@@ -38,7 +38,7 @@ The conditions from the clinical trial list may also appear in a number of hiera
 
 - Pharma
 <br><br>
-The file contains a small number of a publicly available list of pharmaceutical violations. For the puposes of this work, we are interested in the second column, Parent Company, which con- tains the name of the pharmaceutical company in question. (Source: [Pharma data](https://violationtracker.goodjobsfirst.org/industry/pharmaceuticals))
+The file contains a small number of a publicly available list of pharmaceutical violations. For the puposes of this work, I are interested in the second column, Parent Company, which con- tains the name of the pharmaceutical company in question. (Source: [Pharma data](https://violationtracker.goodjobsfirst.org/industry/pharmaceuticals))
 
 
 ## Implementation Steps
@@ -51,7 +51,7 @@ The file contains a small number of a publicly available list of pharmaceutical 
 
 ## Analysis Performed
 #### <b>Problem statements</b>
-You are a data analyst / data scientist whose client wishes to gain further insight into clinical trials. You are tasked with answering these questions, using visualisations where these would support your conclusions.
+You are a data analyst / data scientist whose client wishes to gain further insight into clinical trials. You are tasked with ansIring these questions, using visualisations where these would support your conclusions.
 
 - The number of studies in the dataset (distinct studies).
 - List all the types (as contained in the Type column) of studies in the dataset along with the frequencies of each type. These was ordered from most frequent to least frequent.
@@ -69,7 +69,7 @@ You are a data analyst / data scientist whose client wishes to gain further insi
       A01 1
       C23 1
   ```
-- Find the 10 most common Sponsors that are not pharmaceutical companies, along with the number of clinical trials they have sponsored. For a basic implementation, we can assume that the Parent Company column contains all possible pharmaceutical companies.
+- Find the 10 most common Sponsors that are not pharmaceutical companies, along with the number of clinical trials they have sponsored. For a basic implementation, I can assume that the Parent Company column contains all possible pharmaceutical companies.
 - Plot number of completed studies each month in a given year. 
 
 
@@ -77,7 +77,7 @@ You are a data analyst / data scientist whose client wishes to gain further insi
 
 For this project, the platform used is Databricks. 
 <br><br>
-All the processing was done via executable Notebooks, Scripts and Code. Terminal commands were stored in shell scripts, language specific code was stored in separate files (for example, HiveQL code were stored in .sql scripts).
+All the processing was done via executable Notebooks, Scripts and Code. Terminal commands Ire stored in shell scripts, language specific code was stored in separate files (for example, HiveQL code Ire stored in .sql scripts).
 The solution was implemented using HiveQL and PySpark's RDD(Resilient Distributed Dataset) and DataFrames. 
 <br><br>
 Note that the PySpark implementation did not use SQL queries directly.
@@ -106,18 +106,4 @@ $ git clone https://github.com/teepha/clinicaltrial_data_analysis.git
 • Run All
 ```
 
-## Recommended Improvements
 
-*  Implementation using an AWS cluster. In this case, scripts and screenshots need to be supplied to ensure reproducibility.
-* Further analysis of the data, motivated by the questions asked.
-* Creation of additional visualizations presenting useful information based exploration which is not covered by the problem statements.
-
-## Author
-
-Lateefat Amuda
-
-## License
-
---
-
----
